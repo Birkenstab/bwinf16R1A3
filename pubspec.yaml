@@ -1,0 +1,18 @@
+name: 'Bwinf_2016_Aufgabe_3'
+version: 0.0.1
+description: Lösung zur Aufgabe 3 Runde 1 des 35. bwinf 2016/2017
+author: Birkenstab (Moritz Beck)
+homepage: http://birkenstab.de
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+#dependencies:
+#  my_dependency: any
+
+dev_dependencies:
+  browser: '>=0.10.0 <0.11.0'
+  dart_to_js_script_rewriter: '^1.0.1'
+
+transformers:
+- dart_to_js_script_rewriter
